@@ -1,0 +1,13 @@
+name: Linter
+
+on: push
+
+jobs:
+  eslint:
+    name: Lint code
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: make lint
+
