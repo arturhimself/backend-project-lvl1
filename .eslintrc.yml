@@ -11,5 +11,11 @@ parserOptions:
 
 rules:
   no-console: 0
+  no-tabs: 0
+  indent:
+    - 1
+    - tab
+    - { SwitchCase: 1 }
   import/extensions: 0 # FIXME: remove when rule will be adjusted for new nodejs version
-  no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }] 
+  import/prefer-default-export: 0
+  no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]

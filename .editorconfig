@@ -1,0 +1,8 @@
+[*.js,*.json]
+indent_style = tab
+indent_size = tab
+tab_size = 2
+
+[*.yml,*.yaml]
+indent_style = space
+indent_size = 2
